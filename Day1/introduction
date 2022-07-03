@@ -1,0 +1,41 @@
+So.. Python.
+Why Python?
+
+Python is a high level programing language that is really close to human language and because of that its easy to learn and use.
+The programing language was developed by Dutch programer, Guido. The name Python came from a comedy series, Month Python's flying circus, the first ver was released: 20/02/91
+Pythin is used allmost in every developing companies, using Python you can create web/desktop applications, system administration, machine learning and much more.
+
+Sooo I downloaded Python on my PC.
+One thing that is great about Python, it can run on Shell!
+To make sure that Python is installed on our PC we can open a terminal and write python --version (in my case Python3 --version), Its possible to stright write scripts using the terminal (more suitable for simple scripts).
+Python will give you results if you write scripts that Python understands, if not it returns errors. Once got a syntax error Python will even point it out!
+The process of identifying and removing errors from a program is called debugging.
+3 % 2 = 1 => which means finding the remainder
+3 // 2 = 1 => which means removing the remainder
+3 ** 2 = 9 => works as 3^2
+
+Basics to take notice:
+Python syntax: A Python script can be written in Python interactive shell or in the code editor. A Python file has an extension .py.
+Python indentation: An indentation is a white space in a text. Indentation in many languages is used to increase code readability, however Python uses indentation to create block of codes. In other programming languages curly brackets are used to create blocks of codes instead of indentation. One of the common bugs when writing python code is wrong indentation.
+Python multi line: Triple quote can be used for multiline comment if it is not assigned to a variable. 
+Example: """This is multiline comment
+multiline comment takes multiple lines.
+python is eating the world
+"""
+
+Data types:
+Numbers: Integer: Integer(negative, zero and positive) numbers Example: ... -3, -2, -1, 0, 1, 2, 3 ...
+Float: Decimal number Example ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
+Complex Example 1 + j, 2 + 4j
+String: A collection of one or more characters under a single or double quote. If a string is more than one sentence then we use a triple quote. Example: 'hey'
+Booleans: A boolean data type is either a True or False value. T and F should be always uppercase.
+List: Python list is an ordered collection which allows to store different data type items. A list is similar to an array in JavaScript. [0, 1, 2, 3]
+Dictionary: A Python dictionary object is an unordered collection of data in a key value pair format (like Json)
+Tuple: A tuple is an ordered collection of different data types like list but tuples can not be modified once they are created. They are immutable.
+Example: ('Natan', 'Pavel', 'Brook', 'Abraham', 'Lidiya') # Names
+Set: A set is a collection of data types similar to list and tuple. Unlike list and tuple, set is not an ordered collection of items. Like in Mathematics, set in Python stores only unique items.
+Example: {3.14, 9.81, 2.7} # order is not important in set
+Its possible to check data type by: type(thetypeofdata)
+
+Python File: 
+The first project will be using *print(). Print() is a command that whatever will be written in the () will be printed in the console.
