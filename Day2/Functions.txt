@@ -1,0 +1,13 @@
+In Python we have lots of built-in functions. Built-in functions are globally available for your use that mean you can make use of the built-in functions
+without importing or configuring. Some of the most commonly used Python built-in functions are the following:
+print(), len(), type(), int(), float(), str(), input(), list(), dict(), min(), max(), sum(), sorted(), open(), file(), help(), and dir().
+In the following table you will see an exhaustive list of Python built-in functions taken from python documentation https://docs.python.org/3.9/library/functions.html.
+A small breakdown of these functions:
+print()- prints whatever value inside ()
+len()- counts the num of characters inside () including spaces, E.g- len('Hey you') will print out 7
+type()- prints the sort of data type written in the ()
+str()- converts nums to strings, E.g- str(5) will print '5'
+int()- converts to num
+float()- converts a int to decimal
+input()- takes the input you write and prints out the value
+NOTE- when writing: help('keyword') prints out all built in functions and when writing the name of one of them- help('lambda') it'll print out commands.
