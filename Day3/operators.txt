@@ -1,0 +1,26 @@
+Operators: Python language supports several types of operators. In this section, we will focus on few of them.
+Assignment Operators: Assignment operators are used to assign values to variables. Let us take = as an example. Equal sign in mathematics shows that two values are equal, 
+however in Python it means we are storing a value in a certain variable and we call it assignment or a assigning value to a variable.
+Example for assignment Ops:
+=     x = 5       x = 5
++=    x += 5      x = x + 5         x = 5       x = 5 + 5
+-=    x -= 3      x = x - 3
+*=    x *= 4      x = x * 4
+&=    x &= 3      x = x & 3
+To sum it up Assign Ops are used to assign a value to a var and than using the var to add/sub/multiplie... and save the result in the used var
+
+Arithmetic Ops: regular math Ops for regular math Ops
+Example Integer:
++     x + y
+-     x - y
+*     x * y
+/     x / y
+%     x % y
+
+Integer examples:
+print('Division: ', 7 / 2) -> output: Division: 3.5
+print('Modulus: ', 3 % 2) -> output: Modulus: 1
+print('Exponentiation: ', 2 ** 3) -> output: Exponentiation: 9
+So, it'll print out the string in '' and add to the print togther with the print the sum of the operators.
+
+Example float:
