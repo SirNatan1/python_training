@@ -19,7 +19,7 @@ Example Integer:
 
 Integer examples:
 print('Division: ', 7 / 2) -> output: Division: 3.5
-print('Modulus: ', 3 % 2) -> output: Modulus: 1
+print('Modulus: ', 3 % 2) -> output: Modulus: 1 , modulo is a remain of a divided number
 print('Exponentiation: ', 2 ** 3) -> output: Exponentiation: 9
 So, it'll print out the string in '' and add to the print togther with the print the sum of the operators.
 
