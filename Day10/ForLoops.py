@@ -1,0 +1,2 @@
+# A for loop is used to iterate over a sequence, such as a list, tuple, or string. The loop executes a set of statements
+# for each item in the sequence, and the variable that holds the current item changes on each iteration.
