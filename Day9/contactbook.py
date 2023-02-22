@@ -59,7 +59,7 @@ def contactbook():
     if name in names:
         print(names[name])
     else:
-        print('This name dosent exist in the contactbook')
+        print('''This name wasn't found in the contactbook''')
 
 contactbook()
 
