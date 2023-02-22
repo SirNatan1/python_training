@@ -63,6 +63,7 @@ def contactbook():
 
 contactbook()
 
+# add loop to make it as CLI (press e for edit or c for create)
 #add conditional for user input of a new entry
 #maybe it'll cause restructure of the whole dictionary by deleting the key of the name
 #then change the condition of the if to a loop which will do the same but check inside the dict for a value
