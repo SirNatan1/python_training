@@ -57,5 +57,21 @@ lst = list(range(11)) # creating a variable which is a list range from 0 to 10
 print(lst) # this will print out the value which is the list from 0 to 10
 st = set(range(1, 11)) # 2 arguments indicate start and end of the sequence, step set to default 1
 print(st)
+l = list(range(0,11,2)) # creating a var which is a list ranging from 0 to 10 in steps of 2
+print(l) # will print even numbers 0 2 4 6 8 10
 
+#range in iterator function
+for t in range(11):
+    print(t) # will print the value for the iterator t
 
+# Nested for loop
+person = {
+    'name':'Nat',
+    'last_name':'Ir',
+    'age':'25',
+    'life':'none'
+}
+for key in person: # checks for a key in the dict 'person'
+    if key == 'age': # the key it looks for is age, if the key exist the condition will move
+        for k in person['last_name']:
+            print(k)
